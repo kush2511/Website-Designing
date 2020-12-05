@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:wght@500&family=Nunito&family=Open+Sans:wght@300&family=Raleway&family=Roboto&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#MainNavbar .container .navbar-toggler{
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px #2b2a2a;
+    border-radius: 8%;
+}
+#socialmedia span{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+#socialmedia a{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+#socialmedia a:hover{
+    color: blueviolet;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+#MainNavbar .navbar-brand{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: #667eea;
+}
+#MainNavbar .nav-link{
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 25px;
+}
+#MainNavbar .nav-item > #buttons{
+    width: 125px;
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    outline:none;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 10px #000000;
+    margin-left: 25px;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+#MainNavbar .nav-item > #buttons:hover{
+    color: black;
+}
+#MainNavbar .nav-link:hover{
+    color: #af97c7;
+}
+
+#First{
+    background-color: #232323;
+}
+#First #Goal{
+    font-size: 2.2rem;
+}
+#insidejumbotron{
+    font-family: 'Roboto', sans-serif;
+    color: #667eea;
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+#jumbotronbutton{
+        width: 130px;
+        background-image: linear-gradient(to right, #667eea, #764ba2);
+        color: white;
+        box-shadow: 0px 0px 10px #929292;
+        border: none;
+        font-size: 0.6rem;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        outline: hidden;
+        padding: 12px 0;
+}
+#jumbotronbutton:hover{
+    transition: all 0.3s ease;
+    color: rgb(4, 4, 37);
+}
+#thirdLayer #InsideThirdLayer h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+hr{
+    width: 25%;
+    border-bottom: 3px solid blueviolet;
+}
+#thirdLayer #InsideThirdLayer p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    word-spacing: 2px;
+}
+#thirdLayer #buttons{
+    width: 125px;
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    outline:none;
+    color: white;
+    border: none;
+    box-shadow: 1px 3px 5px #2b2a2a;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 0;
+    margin-bottom: 0;
+}
+#thirdLayer #buttons:hover{
+    color: black;
+}
+#square
+{
+    height:350px;
+    width: 350px;
+    position: absolute;
+    border-radius: 12%;
+    margin: 30px;
+    background-image: linear-gradient( #667eea, #764ba2);
+}
+#square1
+{
+    height:350px;
+    width: 350px;
+    position: absolute;
+    border-radius: 12%;
+    background-color: rgb(223, 222, 222);
+}
+#forthLayer #Services{
+    padding-top: 25px;
+}
+#forthLayer #Services h1{
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder; 
+}
+#forthLayer #Services p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    word-spacing: 2px;  
+}
+#forthLayer #Services hr{
+    width: 17%;
+    border-bottom: 3px solid blueviolet;
+}
+#forthLayer #ImagesBg{
+    width: 100px;
+    height: 100px;
+}
+#forthLayer #Images a{
+    color: #667eea;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+#forthLayer #Images a:hover{
+    transition: all 0.3s ease-in;
+}
+#forthLayer #Images p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+#fifth{
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient( #667eea, #764ba2);
+}
+#fifth #MainSquare{
+    padding-top: 40px;
+}
+#fifth #square
+{
+    height:350px;
+    width: 350px;
+    position: absolute;
+    border-radius: 12%;
+    margin: 30px;
+    padding-right: 50px;
+    background-image: linear-gradient( #4d4d4e, #494949);
+}
+#fifth #square1
+{
+    height:350px;
+    width: 350px;
+    position: absolute;
+    border-radius: 12%;
+    background-color: rgb(204, 201, 201);
+}
+#fifth #thirdLayer #InsideThirdLayer{
+    margin-top: 80px;
+}
+#fifth #thirdLayer #InsideThirdLayer h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+#fifth #thirdLayer #InsideThirdLayer hr{
+    width: 25%;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#fifth #thirdLayer #InsideThirdLayer p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    word-spacing: 2px;
+}
+#sixthLayer .Sixth h1{
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder; 
+}
+#sixthLayer .Sixth p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    word-spacing: 2px;  
+}
+#sixthLayer .Sixth hr{
+    width: 17%;
+    border-bottom: 3px solid blueviolet;
+}
+#sixthLayer .Portfolio img{
+    width: 100%;
+    height: auto;
+    border: 7px double black;
+}
+.Seven .SevenLayer .LastButton{
+    width: 125px;
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    outline:none;
+    color: white;
+    border: none;
+    box-shadow: 1px 3px 5px #2b2a2a;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 0;
+    margin-top: 5px;
+}
+.Seven .SevenLayer .LastButton:hover{
+    color: black;
+    transition: all 0.2s ease;
+}
+.Seven .SevenLayer .card-body{
+    margin-top: -15px;
+}
+.Seven .SevenLayer .dates{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.6rem;
+    margin: 0 0 0 20px;
+}
+.Seven .SevenLayer a{
+    color: #667eea;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.Seven .SevenLayer a:hover{
+    transition: all 0.3s ease-in;
+}
+.Seven .SevenLayer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+#header{
+    background-color: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+#header .container .heading{
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+#header .container #insideHeader p{
+    font-size: 0.7rem;
+}
+#header .container #insideHeader #copyRight{
+    font-size: 0.6rem;
+}
+#header .container .card{
+    background-color: black;
+    border: none;
+}
+#header .container .card-body a{
+    color: white;
+    font-size: 0.65rem;
+}
+#header .container a:hover,
+#header .container #Over a:hover{
+    color: #af97c7;
+}
+#header .container #submit{
+    width: 100px;
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    outline:none;
+    color: white;
+    border: none;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0px 0px 10px #b4b4b4;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+#header .container #submit:hover
+{
+    color: black;
+}
+#header .container #Over a{
+    font-size: 1.0rem;
+    color: white;
+}
+#header .container input[type=text]{
+    height: 35px;
+    width: 150px;
+    border: none;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #bbbbbb;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+        @media (max-width: 1000px) {
+            #First #Goal{
+                font-size: 1.6rem;
+            }
+            #insidejumbotron{
+                font-family: 'Roboto', sans-serif;
+                color: #667eea;
+                font-size: 3rem;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+            #thirdLayer #InsideThirdLayer h1{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.3rem;
+                font-weight: bolder;
+            }
+            #thirdLayer #InsideThirdLayer hr{
+                width: 20%;
+                border-bottom: 3px solid blueviolet;
+            }
+            #thirdLayer #InsideThirdLayer p{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                font-size: 0.7rem;
+                word-spacing: 2px;
+            }
+            #square
+            {
+                height:300px;
+                width: 300px;
+                position: absolute;
+                border-radius: 12%;
+                margin: 30px;
+            }
+            #square1
+            {
+                height:300px;
+                width: 300px;
+                position: absolute;
+                border-radius: 12%;
+            }
+            #fifth{
+                width: 100%;
+                height: 250px;
+            }
+            #fifth #thirdLayer #InsideThirdLayer{
+                margin-top: 0px;
+            }
+            #fifth #MainSquare{
+                padding-top: 10px;
+            }
+            #fifth #square
+            {
+                height:200px;
+                width: 200px;
+                position: absolute;
+                border-radius: 12%;
+                margin: 30px;
+            }
+            #fifth #square1
+            {
+                height:200px;
+                width: 200px;
+                position: absolute;
+                border-radius: 12%;
+            }
+            #fifth #thirdLayer #InsideThirdLayer h1{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.3rem;
+                font-weight: bolder;
+            }
+            #fifth #thirdLayer #InsideThirdLayer hr{
+                width: 20%;
+                border-bottom: 3px solid rgb(0, 0, 0);
+            }
+            #fifth #thirdLayer #InsideThirdLayer p{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                font-size: 0.7rem;
+                word-spacing: 2px;
+            }
+            #forthLayer #Services{
+                padding-top: 0;
+            }
+            #forthLayer #Services h1{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5rem;
+                font-weight: bolder;
+                text-align: start;
+            }
+            #forthLayer #Services p{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                font-size: 0.7rem;
+                word-spacing: 2px;
+                text-align: start;
+            }
+            #forthLayer #Services hr{
+                width: 20%;
+            }
+            #sixthLayer .Sixth{
+                padding-top: 0;
+            }
+            #sixthLayer .Sixth h1{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5rem;
+                font-weight: bolder;
+                text-align: start;
+            }
+            #sixthLayer .Sixth p{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                font-size: 0.7rem;
+                word-spacing: 2px;
+                text-align: start;
+            }
+            #sixthLayer .Sixth hr{
+                width: 20%;
+            }
+            #header .container .heading{
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            #header .container #insideHeader p{
+                font-size: 0.6rem;
+                margin: 0;
+                padding: 0;
+            }
+        }
