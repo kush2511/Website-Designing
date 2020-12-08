@@ -9,8 +9,12 @@
     background-image: linear-gradient(to right, #667eea, #764ba2);
     border: none;
     outline: none;
-    box-shadow: 0px 0px 10px #2b2a2a;
+    /* box-shadow: 0px 0px 10px #2b2a2a; */
     border-radius: 8%;
+    transition: 0.3s all ease-in-out;
+}
+#MainNavbar .container .navbar-toggler:hover{
+    box-shadow: 0px 0px 5px #2b2a2a;
 }
 #socialmedia span{
     color: whitesmoke;
@@ -21,9 +25,10 @@
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    transition: 0.5s all ease-in-out;
 }
 #socialmedia a:hover{
-    color: blueviolet;
+    color:  #97aaff;
     transition: all 0.3s ease;
     text-decoration: underline;
 }
@@ -45,10 +50,10 @@
 #MainNavbar .nav-item > #buttons{
     width: 125px;
     background-image: linear-gradient(to right, #667eea, #764ba2);
-    outline:none;
+    /* outline:none; */
     color: white;
-    border: none;
-    box-shadow: 0px 0px 10px #000000;
+    border: transparent;
+    box-shadow: 0px 0px 4px #000000;
     margin-left: 25px;
     font-size: 0.7rem;
     font-weight: bolder;
@@ -56,12 +61,14 @@
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     padding: 10px 0;
+    transition: 0.4s all ease-in-out;
 }
 #MainNavbar .nav-item > #buttons:hover{
-    color: black;
+    /* color: black; */
+    box-shadow: 1px 2px 10px#764ba2;
 }
 #MainNavbar .nav-link:hover{
-    color: #af97c7;
+    color: #5f7cfa;
 }
 
 #First{
@@ -81,7 +88,7 @@
         width: 130px;
         background-image: linear-gradient(to right, #667eea, #764ba2);
         color: white;
-        box-shadow: 0px 0px 10px #929292;
+        /* box-shadow: 0px 0px 10px #929292; */
         border: none;
         font-size: 0.6rem;
         font-weight: bolder;
@@ -90,9 +97,10 @@
         text-transform: uppercase;
         outline: hidden;
         padding: 12px 0;
+        transition: 0.5s all ease-in-out;
 }
 #jumbotronbutton:hover{
-    transition: all 0.3s ease;
+    box-shadow: 0px 0px 7px #d1c5c5;
     color: rgb(4, 4, 37);
 }
 #thirdLayer #InsideThirdLayer h1{
@@ -124,6 +132,7 @@ hr{
     text-transform: uppercase;
     padding: 12px 0;
     margin-bottom: 0;
+    transition: 0.5s all ease-in-out;
 }
 #thirdLayer #buttons:hover{
     color: black;
@@ -265,10 +274,10 @@ hr{
     text-transform: uppercase;
     padding: 12px 0;
     margin-top: 5px;
+    transition: 0.5s all ease-in-out;
 }
 .Seven .SevenLayer .LastButton:hover{
     color: black;
-    transition: all 0.2s ease;
 }
 .Seven .SevenLayer .card-body{
     margin-top: -15px;
@@ -281,12 +290,9 @@ hr{
 .Seven .SevenLayer a{
     color: #667eea;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-variant: small-caps;
-    letter-spacing: 2px;
+    font-variant: normal;
+    letter-spacing: 1px;
     word-spacing: 5px;
-}
-.Seven .SevenLayer a:hover{
-    transition: all 0.3s ease-in;
 }
 .Seven .SevenLayer p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -302,6 +308,7 @@ hr{
     letter-spacing: 2px;
     font-size: 1.3rem;
     font-weight: 800;
+    color:  #667eea;
 }
 #header .container #insideHeader p{
     font-size: 0.7rem;
@@ -319,7 +326,7 @@ hr{
 }
 #header .container a:hover,
 #header .container #Over a:hover{
-    color: #af97c7;
+    color: #97aaff;
 }
 #header .container #submit{
     width: 100px;
@@ -332,10 +339,11 @@ hr{
     letter-spacing: 2px;
     word-spacing: 1px;
     font-family: 'Nunito', sans-serif;
-    box-shadow: 0px 0px 10px #b4b4b4;
+    /* box-shadow: 0px 0px 10px #b4b4b4; */
     text-transform: uppercase;
     padding: 10px 0;
     margin-top: 0px;
+    transition: 0.5s all ease-in-out;
 }
 #header .container #submit:hover
 {
@@ -352,9 +360,15 @@ hr{
     text-align: center;
     font-size: 0.8rem;
     font-weight: bold;
-    box-shadow: 0px 0px 10px #bbbbbb;
+    /* box-shadow: 0px 0px 10px #bbbbbb; */
     letter-spacing: 1px;
     word-spacing: 2px;
+}
+#INDIA{
+    font-size: 20px;
+    background: -webkit-linear-gradient(90deg, rgb(255,153,51) 0%, rgb(255,255,255) 50%, rgb(19,136,8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
